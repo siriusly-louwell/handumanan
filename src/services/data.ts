@@ -2,7 +2,7 @@ import type { LocationSpots, Place } from "./types";
 
 export const SPOTS: LocationSpots = {
   tagaytay: {
-    context: "",
+    context: "Perched on a ridge high above the verdant Cavite countryside, Tagaytay offers a breathtaking, cool vantage point of the serene Taal Volcano nestled within its lake. This city is the tranquil garden escape for Manileños, famous for its crisp mountain air, panoramic views, and cozy restaurants serving local delicacies like bulalo",
     spot: [
       {
         label: "TAAL VOLCANO VIEWPOINT",
@@ -29,13 +29,20 @@ export const SPOTS: LocationSpots = {
         label: "MUSEO ORLINA",
         name: "museo_orlina",
         content:
-          "Mahogany Market is where you can taste the heart of Tagaytay.",
+          "Museo Orlina is where art and glass meet elegance. It showcases the stunning glass sculptures of renowned artist Ramon Orlina, set against the beautiful backdrop of Taal Lake.",
+        subheader: "Tagaytay City",
+      },
+      {
+        label: "MAHOGANY MARKET",
+        name: "mahogany_market",
+        content:
+          "Famous for its savory bulalo and fresh produce, it’s a must-visit for food lovers wanting to experience the local flavors.",
         subheader: "Tagaytay City",
       },
     ]
   },
   vigan: {
-    context: "",
+    context: "Step back in time as you walk along the cobblestone streets of Vigan’s Mestizo District, a UNESCO World Heritage site where centuries-old Spanish colonial architecture stands preserved. The clip-clop of horse-drawn calesas and the scent of empanadas frying in ancient houses make this a living museum of Ilocano culture and history.",
     spot: [
       {
         label: "CALLE CRISOLOGO",
@@ -142,21 +149,21 @@ export const SPOTS: LocationSpots = {
       },
       {
         label: "Hacienda Maria",
-        name: "boracay",
+        name: "hacienda_maria",
         content:
           "A 14-hectare eco-tourism estate in Tigum, Buruanga with caves (stalactites & stalagmites), waterfalls, and a special “hot pot” or open fire jacuzzi experience.",
         subheader: "Brgy. Tigum, Buruanga",
       },
       {
         label: "HINUGTAN BEACH",
-        name: "boracay",
+        name: "hinugtan_beach",
         content:
           "A secluded white-sand beach in Buruanga with cliffs on both ends, turquoise water, less crowd than major tourist beaches.",
         subheader: "Buruanga, Aklan",
       },
       {
         label: "NORTHWEST PANAY PENINSULA NATURAL PARK",
-        name: "boracay",
+        name: "northwest_panay",
         content:
           "A protected natural park of over 12,000 hectares on Panay Island (covering parts of Aklan and Antique) established to conserve biodiversity, forest, coast and watershed.",
         subheader: "Nabas/Buruanga/Bordering Provinces",
@@ -164,7 +171,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   ilocos_norte: {
-    context: "",
+    context: "Ilocos Norte, including Ilocos Sur, these neighboring provinces are a dramatic tapestry of wind-swept coastlines, rugged mountains, and vast tobacco fields, guarding the northwestern edge of Luzon. They are the heartland of resilient Ilocano culture, famed for its robust flavors, historic churches, and unique landscapes from the sand dunes of Laoag to the heritage streets of Vigan.",
     spot: [
       {
         label: "PAOAY CHURCH",
@@ -203,7 +210,7 @@ export const SPOTS: LocationSpots = {
       },
       {
         label: "PATAPAT VIADUCT",
-        name: "calle_crisologo",
+        name: "patpat_viaduct",
         content:
           "A scenic coastal bridge in Pagudpud, Ilocos Norte, that winds along the mountain and sea, offering spectacular views and photo-worthy vantage points.",
         subheader: "Iloscos Norte",
@@ -211,7 +218,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   ilocos_sur: {
-    context: "",
+    context: "Ilocos Sur, including Ilocos Norte,hese neighboring provinces are a dramatic tapestry of wind-swept coastlines, rugged mountains, and vast tobacco fields, guarding the northwestern edge of Luzon. They are the heartland of resilient Ilocano culture, famed for its robust flavors, historic churches, and unique landscapes from the sand dunes of Laoag to the heritage streets of Vigan.",
     spot: [
       {
         label: "SANTA MARIA CHURCH",
@@ -222,14 +229,14 @@ export const SPOTS: LocationSpots = {
       },
       {
         label: "PINSALL FALLS",
-        name: "windmills",
+        name: "pinsall_falls",
         content:
           "Pinsal Falls is a natural waterfall and tourist spot located in Santa Maria, Ilocos Sur.",
         subheader: "Santa Maria, Ilocos Sur",
       },
       {
         label: "ILOCOS SUR PROVINCIAL CAPITOL & HERITAGE DISTRICT",
-        name: "windmills",
+        name: "provincial_capitol",
         content:
           "The Provincial Capitol of Ilocos Sur is located in Vigan, near the heritage district.",
         subheader: "Vigan",
@@ -237,7 +244,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   cebu: {
-    context: "",
+    context: "The vibrant Queen City of the South is a dynamic hub where urban energy meets pristine island life, all set between a mountainous spine and the deep blue Camotes Sea. As the birthplace of Christianity in the Philippines, Cebu pulses with a rich history visible in its Magellan's Cross and the fervent devotion of the Sinulog Festival, alongside world-class diving and bustling cityscapes.",
     spot: [
       {
         label: "MAGELLAN’S CROSS",
@@ -291,7 +298,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   la_union: {
-    context: "",
+    context: "Known as the surfing capital of the north, La Union boasts a legendary stretch of coastline where consistent waves crash against golden-sand beaches framed by rocky headlands. 'Elyu' has evolved into a vibrant creative and gastronomic hub, where a laid-back surf culture blends seamlessly with art galleries, coffee shops, and spectacular sunsets.",
     spot: [
       {
         label: "BAHAY NA BATO",
@@ -366,7 +373,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   davao: {
-    context: "",
+    context: "Nestled at the foot of the majestic Mount Apo, the Philippines' highest peak, Davao is a sprawling metropolis that masterfully balances urban development with breathtaking natural wonders. This gateway city is a melting pot of cultures and the proud home of the majestic Philippine Eagle, offering access to rare wildlife, the fertile slopes of durian orchards, and the untouched islands of the Samal archipelago.",
     spot: [
       {
         label: "EDEN NATURE PARK & RESORT",
@@ -406,7 +413,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   palawan: {
-    context: "",
+    context: "An archipelago of sublime beauty, Palawan is an emerald chain of limestone karsts rising from jewel-toned waters, often hailed as the country's last ecological frontier. From the UNESCO-listed Underground River to the idyllic lagoons of El Nido and Coron, it’s a paradise for adventurers and a sanctuary for diverse marine life, offering a truly pristine escape.",
     spot: [
       {
         label: "PUERTO PRINCESA UNDERGROUND RIVER",
@@ -446,7 +453,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   bukidnon: {
-    context: "",
+    context: "Known as the highland paradise of Mindanao, Bukidnon is a cool, rolling expanse of vast pineapple and sugarcane plantations set against a backdrop of misty mountains and deep valleys. This landlocked province offers a serene escape into its lush landscapes, home to the vibrant cultures of indigenous tribes and adventurous ecotourism sites like the soaring Dahilayan Adventure Park.",
     spot: [
       {
         label: "ALALUM FALLS",
@@ -514,7 +521,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   boracay: {
-    context: "",
+    context: "Famed for its powdery, white-sand shores that feel like talc underfoot and its stunningly clear, turquoise waters, Boracay is a world-renowned island of pure leisure and vibrant energy. While by day it's a haven for water sports and relaxation, by night it transforms into a lively strip of dining and entertainment, perfectly blending tropical bliss with modern comforts.",
     spot: [
       {
         label: "ARIEL'S POINT",
@@ -568,7 +575,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   camiguin: {
-    context: "",
+    context: "Born of fire, the 'Island Born of Fire' is a lush, pear-shaped gem rising from the sea, dotted with seven volcanoes and numerous volcanic springs and waterfalls. This peaceful island offers a unique blend of natural wonders—from the sunken cemetery and hot springs to its sweet lanzones fruit—creating an atmosphere of serene, unspoiled beauty and resilience.",
     spot: [
       {
         label: "WHITE ISLAND",
