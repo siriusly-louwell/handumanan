@@ -96,7 +96,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   aklan: {
-    context: "",
+    context: "The province of Aklan lies northwest on Panay Island and includes renowned tourist spots like Boracay and various nature/ecotourism sites. The culture, history, and natural environments are diverse — from beaches to waterfalls to mangrove forests and cold springs. Aklan is also known for its vibrant Ati-Atihan Festival, often called the “Mother of All Philippine Festivals.” Its welcoming locals and rich traditions make it a destination that blends relaxation, adventure, and cultural immersion.",
     spot: [
       {
         label: "BORACAY ISLAND",
@@ -615,7 +615,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   panabo: {
-    context: "",
+    context: "Panabo City is known as the “Banana Capital of the Philippines” because of its huge banana plantations, export production and agro-industry. It spans fertile lowlands, coastal areas and has a mix of agriculture + city amenities. Tourism in Panabo is growing: besides the plantations, there are mariculture/coastal parks, boardwalks and plazas. For trip planning: it’s accessible by land from Davao City (~30-45 minutes depending on route) and sits along major highway. ",
     spot: [
       {
         label: "SEAWALL & BAY WALK",
@@ -641,7 +641,7 @@ export const SPOTS: LocationSpots = {
     ]
   },
   tagum: {
-    context: "",
+    context: "Tagum City is the capital of Davao del Norte province in the Philippines, known for being the 'Palm City of the Philippines' and a vibrant economic and cultural hub. Located at an important intersection of major roads, it serves as a key crossroads for the Davao Region and is a growing center for business, education, and festivals. It is also recognized for its bustling commercial districts, vibrant cultural scene, and warm community spirit.",
     spot: [
       {
         label: "SAN AGUSTIN BOTANICAL PARK",
