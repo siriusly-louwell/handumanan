@@ -2,7 +2,6 @@ import { SPOTS } from "../services/data";
 import SpotCard from "../components/cards/SpotCard";
 import { useLocation } from "react-router-dom";
 import type { LocationState } from "../services/types";
-import { IMAGES } from "../services/images";
 
 export default function TourSpots() {
   const { state } = useLocation() as {state: LocationState};
@@ -24,7 +23,7 @@ export default function TourSpots() {
           <SpotCard
             name={spot.name}
             label={spot.label}
-            images={IMAGES[state.place]}
+            image={spot.image}
             content={spot.content}
             subheader={spot.subheader}
           />

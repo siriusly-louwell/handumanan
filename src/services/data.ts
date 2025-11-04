@@ -1,3 +1,4 @@
+import { IMAGES } from "./images";
 import type { LocationSpots, Place } from "./types";
 
 export const SPOTS: LocationSpots = {
@@ -9,6 +10,7 @@ export const SPOTS: LocationSpots = {
         name: "taal_volcano",
         content:
           "Taal Volcano Viewpoint offers the postcard-perfect view that defines Tagaytay.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Tagaytay Ridge",
       },
       {
@@ -16,6 +18,7 @@ export const SPOTS: LocationSpots = {
         name: "sky_ranch",
         content:
           "Sky Ranch is where fun and thrills meet breathtaking views.",
+        image: IMAGES['tagaytay'].images.sky_ranch[0],
         subheader: "Tagaytay City",
       },
       {
@@ -23,6 +26,7 @@ export const SPOTS: LocationSpots = {
         name: "picnic_grove",
         content:
           "Picnic Grove is Tagaytay’s timeless spot for family fun.",
+        image: IMAGES['tagaytay'].images.picnic_grove[0],
         subheader: "Tagaytay City",
       },
       {
@@ -30,6 +34,7 @@ export const SPOTS: LocationSpots = {
         name: "museo_orlina",
         content:
           "Museo Orlina is where art and glass meet elegance. It showcases the stunning glass sculptures of renowned artist Ramon Orlina, set against the beautiful backdrop of Taal Lake.",
+        image: IMAGES['tagaytay'].images.museo_orlina[0],
         subheader: "Tagaytay City",
       },
       {
@@ -37,6 +42,7 @@ export const SPOTS: LocationSpots = {
         name: "mahogany_market",
         content:
           "Famous for its savory bulalo and fresh produce, it’s a must-visit for food lovers wanting to experience the local flavors.",
+        image: IMAGES['tagaytay'].images.mahogany_market[0],
         subheader: "Tagaytay City",
       },
     ]
@@ -49,6 +55,7 @@ export const SPOTS: LocationSpots = {
         name: "calle_crisologo",
         content:
           "Calle Crisologo is a famed cobblestone street in Vigan that transports you back to Spanish colonial times.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Vigan",
       },
       {
@@ -56,6 +63,7 @@ export const SPOTS: LocationSpots = {
         name: "plaza_salcedo",
         content:
           "Plaza Salcedo is a central public square in Vigan, located in front of the cathedral.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Vigan",
       },
       {
@@ -63,6 +71,7 @@ export const SPOTS: LocationSpots = {
         name: "saint_paul",
         content:
           "Commonly known as Vigan Cathedral, this church is a historic religious landmark in Vigan.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Tagaytay Cathedral",
       },
       {
@@ -70,6 +79,7 @@ export const SPOTS: LocationSpots = {
         name: "bell_tower",
         content:
           "The Bantay Bell Tower is a historic watchtower located on a hill near Vigan (in Bantay).",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Bantay Church Bell Tower",
       },
       {
@@ -77,6 +87,7 @@ export const SPOTS: LocationSpots = {
         name: "jar_factory",
         content:
           "Pagburnayan refers to the traditional jar-making industry in Vigan (“burnay” = jars).",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Burnay Pottery Experiance",
       },
       {
@@ -84,6 +95,7 @@ export const SPOTS: LocationSpots = {
         name: "baluarte_zoo",
         content:
           "Baluarte Zoo is a wildlife park in Vigan, established by local businessman and politician.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Vigan City",
       },
       {
@@ -91,6 +103,7 @@ export const SPOTS: LocationSpots = {
         name: "kalesa",
         content:
           "One of the signature experiences in Vigan is riding the traditional kalesa (horse-drawn carriage) through the cobblestone streets of the heritage district—especially around Calle Crisologo, giving a feel of old times.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Vigan",
       },
       {
@@ -98,6 +111,7 @@ export const SPOTS: LocationSpots = {
         name: "local_cuisine",
         content:
           "Exploring Vigan isn't complete without tasting the local cuisine.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Vigan",
       },
     ]
@@ -110,6 +124,7 @@ export const SPOTS: LocationSpots = {
         name: "boracay",
         content:
           "Boracay is a small island off the coast of Aklan (in the municipality of Malay) and is internationally famous for its white-sand beaches (especially the 4 km “White Beach”).",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "In Malay, Aklan",
       },
       {
@@ -117,6 +132,7 @@ export const SPOTS: LocationSpots = {
         name: "bakhawan_park",
         content:
           "This is a 220-hectare mangrove forest reforestation project which is now an eco-tourism site.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Kalibo, Aklan",
       },
       {
@@ -124,6 +140,7 @@ export const SPOTS: LocationSpots = {
         name: "jawili_falls",
         content:
           "Located in Barangay Jawili, municipality of Tangalan, Aklan.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Tangalan, Aklan",
       },
       {
@@ -131,6 +148,7 @@ export const SPOTS: LocationSpots = {
         name: "hurom_hurom",
         content:
           "Situated in Barangay Laserna, Nabas, Aklan. A natural cold spring resort where you can enjoy very cold fresh spring water.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Nabas, Aklan",
       },
       {
@@ -138,6 +156,7 @@ export const SPOTS: LocationSpots = {
         name: "likitinon_rocks",
         content:
           "Located in Barangay Maria Cristina, Madalag, Aklan, this spot features a “labyrinth of bone-white boulders, grottoes and stone bathtubs” formed by the river cutting through the gorge.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Madalag, Aklan",
       },
       {
@@ -145,6 +164,7 @@ export const SPOTS: LocationSpots = {
         name: "pagatpat_park",
         content:
           "In Barangay Panilongan, Buruanga – a mangrove park by the sea with elevated boardwalks/trails through mangrove trees, nipa-huts and serene coastal jungle vibes.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Buruanga, Aklan",
       },
       {
@@ -152,6 +172,7 @@ export const SPOTS: LocationSpots = {
         name: "hacienda_maria",
         content:
           "A 14-hectare eco-tourism estate in Tigum, Buruanga with caves (stalactites & stalagmites), waterfalls, and a special “hot pot” or open fire jacuzzi experience.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Brgy. Tigum, Buruanga",
       },
       {
@@ -159,6 +180,7 @@ export const SPOTS: LocationSpots = {
         name: "hinugtan_beach",
         content:
           "A secluded white-sand beach in Buruanga with cliffs on both ends, turquoise water, less crowd than major tourist beaches.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Buruanga, Aklan",
       },
       {
@@ -166,6 +188,7 @@ export const SPOTS: LocationSpots = {
         name: "northwest_panay",
         content:
           "A protected natural park of over 12,000 hectares on Panay Island (covering parts of Aklan and Antique) established to conserve biodiversity, forest, coast and watershed.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Nabas/Buruanga/Bordering Provinces",
       },
     ]
@@ -178,6 +201,7 @@ export const SPOTS: LocationSpots = {
         name: "paoay_church",
         content:
           "This historic church is a UNESCO World Heritage Site located in Paoay, Ilocos Norte.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "San Agustin Church",
       },
       {
@@ -185,6 +209,7 @@ export const SPOTS: LocationSpots = {
         name: "windmills",
         content:
           "A major landmark in Ilocos Norte: a series of towering wind turbines along the coast of Bangui Bay, combining renewable energy infrastructure with scenic views.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Ilocos Norte",
       },
       {
@@ -192,6 +217,7 @@ export const SPOTS: LocationSpots = {
         name: "kapurpurawan_formation",
         content:
           "These are unique white limestone rock formations sculpted by wind and sea, located in Burgos, Ilocos Norte.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Burgos",
       },
       {
@@ -199,6 +225,7 @@ export const SPOTS: LocationSpots = {
         name: "sand_dunes",
         content:
           "A vast expanse of sandy terrain near Paoay, Ilocos Norte, which offers an adventurous terrain of sand dunes along a coastal area.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Ilocos Norte",
       },
       {
@@ -206,6 +233,7 @@ export const SPOTS: LocationSpots = {
         name: "bojeador_lighthouse",
         content:
           "A historic lighthouse built during the Spanish colonial period, located at the northwestern tip of Luzon in Burgos, Ilocos Norte.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Burgos",
       },
       {
@@ -213,6 +241,7 @@ export const SPOTS: LocationSpots = {
         name: "patpat_viaduct",
         content:
           "A scenic coastal bridge in Pagudpud, Ilocos Norte, that winds along the mountain and sea, offering spectacular views and photo-worthy vantage points.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Iloscos Norte",
       },
     ]
@@ -225,6 +254,7 @@ export const SPOTS: LocationSpots = {
         name: "sta_maria_church",
         content:
           "Santa Maria Church (also known as Nuestra Señora de la Asunción Church) in Santa Maria, Ilocos Sur is a UNESCO World Heritage Site as part of the “Baroque Churches of the Philippines”.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Our Lady of the Assumption Church, Santa Maria",
       },
       {
@@ -232,6 +262,7 @@ export const SPOTS: LocationSpots = {
         name: "pinsall_falls",
         content:
           "Pinsal Falls is a natural waterfall and tourist spot located in Santa Maria, Ilocos Sur.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Santa Maria, Ilocos Sur",
       },
       {
@@ -239,6 +270,7 @@ export const SPOTS: LocationSpots = {
         name: "provincial_capitol",
         content:
           "The Provincial Capitol of Ilocos Sur is located in Vigan, near the heritage district.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Vigan",
       },
     ]
@@ -251,6 +283,7 @@ export const SPOTS: LocationSpots = {
         name: "magellan_cross",
         content:
           "Magellan’s Cross, where faith first took root in the Philippines, stands as one of Cebu’s most iconic landmarks.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Cebu City",
       },
       {
@@ -258,6 +291,7 @@ export const SPOTS: LocationSpots = {
         name: "kawasan_falls",
         content:
           "Kawasan Falls invites you to dive into paradise’s turquoise heart — a three-tiered waterfall famous for its clear, blue waters surrounded by lush tropical greenery.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Badian, Cebu",
       },
       {
@@ -265,6 +299,7 @@ export const SPOTS: LocationSpots = {
         name: "oslob_whale",
         content:
           "It’s a once-in-a-lifetime experience that highlights both Cebu’s marine biodiversity and the locals’ hospitality.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Oslob, Cebu",
       },
       {
@@ -272,6 +307,7 @@ export const SPOTS: LocationSpots = {
         name: "fort_san_pedro",
         content:
           "Fort San Pedro, a fortress of history and resilience, stands proudly as the oldest and smallest triangular fort in the Philippines.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Cebu City",
       },
       {
@@ -279,6 +315,7 @@ export const SPOTS: LocationSpots = {
         name: "simala_shrine",
         content:
           "Simala Shrine, where faith meets architectural wonder, rises like a majestic castle on the hills of Sibonga.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Sibonga, Cebu",
       },
       {
@@ -286,6 +323,7 @@ export const SPOTS: LocationSpots = {
         name: "temple_leah",
         content:
           "Built by Teodorico Adarna in honor of his late wife Leah, this Roman-inspired temple boasts marble statues, towering pillars, and sweeping views of the city.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Busay, Cebu",
       },
       {
@@ -293,6 +331,7 @@ export const SPOTS: LocationSpots = {
         name: "sirao_garden",
         content:
           "Known as the “Little Amsterdam of Cebu,” Sirao Flower Garden bursts with vibrant celosia blooms and other colorful flowers year-round.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Busay, Cebu",
       },
     ]
@@ -305,6 +344,7 @@ export const SPOTS: LocationSpots = {
         name: "bahay_bato",
         content:
           "Bahay na Bato in La Union is an open-air art gallery located in Luna, built using stones from the town’s pebble beach.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Luna, La Union",
       },
       {
@@ -312,6 +352,7 @@ export const SPOTS: LocationSpots = {
         name: "bulalakaw_falls",
         content:
           "Known for its impressive height of around 30 to 50 meters, it features a crystal-clear pool at its base surrounded by lush greenery, making it a peaceful natural attraction for nature lovers and adventure seekers.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Bangulin and Santol",
       },
       {
@@ -319,6 +360,7 @@ export const SPOTS: LocationSpots = {
         name: "lotus_valley",
         content:
           "It serves as a model for sustainable agriculture and a sanctuary for nature lovers, promoting harmony between people and the environment through organic farming and wellness practices.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "San Juan",
       },
       {
@@ -326,6 +368,7 @@ export const SPOTS: LocationSpots = {
         name: "poro_lighthouse",
         content:
           "Poro Point Lighthouse is a 27-foot-high concrete tower built in 1905 during the American colonial period.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "San Fernando",
       },
       {
@@ -333,6 +376,7 @@ export const SPOTS: LocationSpots = {
         name: "urbiztondo_beach",
         content:
           "Urbiztondo Beach in San Juan, La Union, is famously known as the “Surfing Capital of the North.”",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "San Juan",
       },
       {
@@ -340,6 +384,7 @@ export const SPOTS: LocationSpots = {
         name: "watch_tower",
         content:
           "The Baluarte Watch Tower in Luna, La Union, is a 400-year-old Spanish-era structure built from reddish bricks and coral stones.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Luna, La Union",
       },
       {
@@ -347,6 +392,7 @@ export const SPOTS: LocationSpots = {
         name: "immuki_island",
         content:
           "It is known for its three crystal-clear lagoons surrounded by limestone formations and a lush mangrove forest.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Balaoan, La Union",
       },
       {
@@ -354,6 +400,7 @@ export const SPOTS: LocationSpots = {
         name: "macho_temple",
         content:
           "The Ma-Cho Temple is a vibrant Taoist temple located in San Fernando City, La Union.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Fernando City",
       },
       {
@@ -361,6 +408,7 @@ export const SPOTS: LocationSpots = {
         name: "tangadan_falls",
         content:
           "Tangadan Falls in San Gabriel, La Union, is a beautiful two-tiered waterfall with a deep natural pool surrounded by limestone cliffs and lush greenery.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "San Gabriel",
       },
       {
@@ -368,6 +416,7 @@ export const SPOTS: LocationSpots = {
         name: "pebble_beach",
         content:
           "Pebble Beach in Luna, La Union, is a distinctive coastline known for its smooth, multicolored pebbles instead of sand.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Luna, La Union",
       },
     ]
@@ -380,6 +429,7 @@ export const SPOTS: LocationSpots = {
         name: "eden_park",
         content:
           "Eden Nature Park is nature’s playground above the city, offering breathtaking mountain views, colorful gardens, and outdoor adventures.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Toril, Davao City",
       },
       {
@@ -387,6 +437,7 @@ export const SPOTS: LocationSpots = {
         name: "eagle_center",
         content:
           "The Philippine Eagle Center is home to the king of the Philippine skies, the critically endangered Philippine Eagle.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Malagos",
       },
       {
@@ -394,6 +445,7 @@ export const SPOTS: LocationSpots = {
         name: "people_park",
         content:
           "Known for its colorful sculptures and tropical gardens, it’s a refreshing urban escape where locals gather to relax, jog, or simply enjoy the city vibe.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "DAvao City",
       },
       {
@@ -401,6 +453,7 @@ export const SPOTS: LocationSpots = {
         name: "jack_ridge",
         content:
           "Once a Japanese Army headquarters during World War II, it now offers restaurants, scenic overlooks, and cultural displays that tell stories of Davao’s past.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Davao City",
       },
       {
@@ -408,6 +461,7 @@ export const SPOTS: LocationSpots = {
         name: "crocodile_park",
         content:
           "This wildlife facility houses crocodiles, birds, and exotic animals while promoting environmental education and awareness.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Riverside, Davao City",
       },
     ]
@@ -420,6 +474,7 @@ export const SPOTS: LocationSpots = {
         name: "puerto_princesa",
         content:
           "Recognized as a UNESCO World Heritage Site, this 8-kilometer river flows through a spectacular limestone cave system adorned with stalactites and stalagmites.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Puerto Princesa",
       },
       {
@@ -427,6 +482,7 @@ export const SPOTS: LocationSpots = {
         name: "island_hopping",
         content:
           "Known for its towering limestone cliffs, hidden lagoons, and white-sand beaches, it’s one of the most breathtaking destinations in the Philippines.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "El Nido",
       },
       {
@@ -434,6 +490,7 @@ export const SPOTS: LocationSpots = {
         name: "coron_shipwreck",
         content:
           "Beneath its calm turquoise waters lie Japanese shipwrecks from World War II, now teeming with coral and marine life.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Coron Palawan",
       },
       {
@@ -441,6 +498,7 @@ export const SPOTS: LocationSpots = {
         name: "honda_bay",
         content:
           "Dotted with small islands and sandbars, this coastal paradise invites visitors to swim, snorkel, and enjoy the simple pleasures of island life.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Puerto Princesa",
       },
       {
@@ -448,6 +506,7 @@ export const SPOTS: LocationSpots = {
         name: "nacpan_beach",
         content:
           "Stretching for four kilometers, it’s one of El Nido’s most serene and scenic spots — perfect for relaxation, sunset watching, and beach walks away from the crowds.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "El Nido",
       },
     ]
@@ -460,6 +519,7 @@ export const SPOTS: LocationSpots = {
         name: "alalumm_falls",
         content:
           "Alalum Falls in Sumilao, Bukidnon, is a stunning 148-foot waterfall surrounded by lush greenery.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Sumilao",
       },
       {
@@ -467,6 +527,7 @@ export const SPOTS: LocationSpots = {
         name: "cedar_falls",
         content:
           "Located in Impalutao, Manolo Fortich, CEDAR offers an eco-park experience with nature trails leading to beautiful waterfalls hidden in the forest.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Center for Ecological Development and Recreation",
       },
       {
@@ -474,6 +535,7 @@ export const SPOTS: LocationSpots = {
         name: "communal_ranch",
         content:
           "The Communal Ranch in Impasugong offers wide grasslands with panoramic views of Bukidnon’s mountain ranges.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Impasugong",
       },
       {
@@ -481,6 +543,7 @@ export const SPOTS: LocationSpots = {
         name: "dahilayan_park",
         content:
           "Located in Manolo Fortich, Dahilayan Adventure Park is one of Mindanao’s premier adventure destinations, offering thrilling rides and beautiful mountain scenery.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Manolo Fortich",
       },
       {
@@ -488,6 +551,7 @@ export const SPOTS: LocationSpots = {
         name: "kaamulan_park",
         content:
           "Kaamulan Park in Malaybalay City is a cultural and nature park that celebrates Bukidnon’s rich heritage.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Malaybalay City",
       },
       {
@@ -495,6 +559,7 @@ export const SPOTS: LocationSpots = {
         name: "lake_apo",
         content:
           "one of Bukidnon’s cleanest inland bodies of water, perfect for relaxation and recreation.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Valencia City",
       },
       {
@@ -502,6 +567,7 @@ export const SPOTS: LocationSpots = {
         name: "monastery_transfiguration",
         content:
           "The Monastery of Transfiguration in Malaybalay City is a peaceful retreat center known for its pyramid-shaped church designed by National Artist Leandro Locsin.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Malaybalay",
       },
       {
@@ -509,6 +575,7 @@ export const SPOTS: LocationSpots = {
         name: "mt_anahawon",
         content:
           "Mt. Anahawon, also known as Skypark Valencia, offers breathtaking panoramic views of Valencia City and nearby mountains.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Skypark Valencia",
       },
       {
@@ -516,6 +583,7 @@ export const SPOTS: LocationSpots = {
         name: "nasuli_spring",
         content:
           "Nasuli Spring in Malaybalay City is a natural cold spring with deep blue waters surrounded by lush trees.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Malaybalay",
       },
     ]
@@ -528,6 +596,7 @@ export const SPOTS: LocationSpots = {
         name: "ariel_point",
         content:
           "Ariel's Point, near Buruanga, is an eco-adventure destination that offers a variety of activities and sports. It is known for its cliff diving, with platforms ranging from 3 to 15 meters.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Boracay",
       },
       {
@@ -535,6 +604,7 @@ export const SPOTS: LocationSpots = {
         name: "bulabog_beach",
         content:
           "Bulabog Beach, located on the eastern side of Boracay, is known as the adventure sports capital and a prime spot for kiteboarding and windsurfing.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Boracay",
       },
       {
@@ -542,6 +612,7 @@ export const SPOTS: LocationSpots = {
         name: "crystal_cove",
         content:
           "Crystal Cove Island, near Boracay, provides a scenic experience with landscapes, clear waters, and rock formations.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Boracay",
       },
       {
@@ -549,6 +620,7 @@ export const SPOTS: LocationSpots = {
         name: "dmall_boracay",
         content:
           "D'Mall Boracay is a shopping plaza located between Station 1 and Station 2, featuring a mix of beach essentials, souvenirs, and dining options.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Boracay",
       },
       {
@@ -556,6 +628,7 @@ export const SPOTS: LocationSpots = {
         name: "paraw_sailing",
         content:
           "Paraw sailing in Boracay involves sailing around the island on a traditional outrigger boat, especially during sunset.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Boracay",
       },
       {
@@ -563,6 +636,7 @@ export const SPOTS: LocationSpots = {
         name: "white_beach",
         content:
           "White Beach is the heart of Boracay, featuring a 2.5-mile strip of soft sand and clear water. It is a vibrant tourist center with hotels, nightlife, and water sports.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Boracay",
       },
       {
@@ -570,6 +644,7 @@ export const SPOTS: LocationSpots = {
         name: "willys_rock",
         content:
           "Willy's Rock is an iconic volcanic rock formation located just off-White Beach in Station 1.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "White Beach, Boracay",
       },
     ]
@@ -582,6 +657,7 @@ export const SPOTS: LocationSpots = {
         name: "white_island",
         content:
           "This is a pristine sandbar off the coast of Camiguin, often described as the island’s crown jewel.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Camiguin",
       },
       {
@@ -589,6 +665,7 @@ export const SPOTS: LocationSpots = {
         name: "katibawasan_falls",
         content:
           "A majestic waterfall in Camiguin that drops from a high height into a clear basin, surrounded by lush tropical vegetation.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Camiguin",
       },
       {
@@ -596,6 +673,7 @@ export const SPOTS: LocationSpots = {
         name: "sunken_cemetery",
         content:
           "A hauntingly beautiful historical-natural site where an entire cemetery was submerged by volcanic eruption in the 1870s.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Camiguin",
       },
       {
@@ -603,6 +681,7 @@ export const SPOTS: LocationSpots = {
         name: "mantigue_island",
         content:
           "A small island (about 4 hectares) off Camiguin’s coast, protected as a marine sanctuary with white coral sand beach, forest trail and rich underwater life.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "“MAGSAYSAY ISLAND”",
       },
       {
@@ -610,6 +689,7 @@ export const SPOTS: LocationSpots = {
         name: "bura_water_park",
         content:
           "These spots highlight Camiguin’s volcanic and geothermal nature. Bura is a “soda-water” pool (naturally carbonated spring).",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Camiguin",
       },
       {
@@ -617,6 +697,7 @@ export const SPOTS: LocationSpots = {
         name: "tanguines_lagoon",
         content:
           "A large calm lagoon originally created for fish propagation. A change of pace from typical beach/sea settings — quieter, more relaxed.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Mahinog, Camiguin",
       },
     ]
@@ -629,6 +710,7 @@ export const SPOTS: LocationSpots = {
         name: "seawall",
         content:
           "Along Panabo’s coast you’ll find a seawall promenade and bay walk area where locals stroll, relax and enjoy seaside views.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Panabo City",
       },
       {
@@ -636,6 +718,7 @@ export const SPOTS: LocationSpots = {
         name: "japanese_tunnel",
         content:
           "Historical and nature spots in Panabo: the Japanese Tunnel (WWII-era) being developed for tourism.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "San Nicolas & Buenavista",
       },
       {
@@ -643,6 +726,7 @@ export const SPOTS: LocationSpots = {
         name: "mangrove_forest",
         content:
           "A large‐scale mangrove forest reserve (~94.1 ha) with a 585-meter walkway/boardwalk in Brgy. JP Laurel.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Brgy. JP Laurel",
       },
     ]
@@ -655,6 +739,7 @@ export const SPOTS: LocationSpots = {
         name: "botanical_park",
         content:
           "A large botanical park in Tagum, boasting thousands of tree species from around the world.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Tagum City",
       },
       {
@@ -662,6 +747,7 @@ export const SPOTS: LocationSpots = {
         name: "banana_beach",
         content:
           "A unique beach resort in Tagum’s Madaum area, within a banana plantation – offering beach + resort + nature in one.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Hijo Resorts Davao",
       },
       {
@@ -669,6 +755,7 @@ export const SPOTS: LocationSpots = {
         name: "nabintad_cruise",
         content:
           "Tagum City offers a river cruise (around mangroves and along the river bank) which is a less obvious but rewarding activity.",
+        image: IMAGES['tagaytay'].images.taal_volcano[0],
         subheader: "Tagum City",
       },
     ]

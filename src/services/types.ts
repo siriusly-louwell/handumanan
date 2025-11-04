@@ -2,7 +2,7 @@ export interface Spot {
   label: string;
   name: string;
   content: string;
-  images: string;
+  image: string;
   subheader?: string;
 }
 

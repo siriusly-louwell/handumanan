@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import type { Spot } from "../../services/types";
 
-export default function SpotCard({ label, name, content, images, subheader }: Spot) {
+export default function SpotCard({ label, name, content, image, subheader }: Spot) {
   return (
     <div className="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
       <div className="bg-clip-border mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg">
         <img
-          src={images}
+          src={image}
           alt="Lovely and cozy apartment"
           className="h-full w-full object-cover"
         />
