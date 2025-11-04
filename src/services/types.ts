@@ -5,13 +5,30 @@ export interface Spot {
   subheader?: string;
 }
 
-export interface ArrSpot {
-  [key: string]: Spot[];
+export interface Spots {
+  context: string;
+  spot: Array<Spot>;
+}
+
+export interface LocationSpots {
+  tagaytay: Spots;
+  vigan: Spots;
+  palawan: Spots;
+  cebu: Spots;
+  davao: Spots;
+  ilocos_norte: Spots;
+  ilocos_sur: Spots;
+  la_union: Spots;
+  panabo: Spots;
+  tagum: Spots;
+  aklan: Spots;
+  camiguin: Spots;
+  boracay: Spots;
+  bukidnon: Spots;
 }
 
 export interface Place {
   title: string;
   name: string;
   description: string;
-  subtext?: string;
 }
