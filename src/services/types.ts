@@ -2,12 +2,17 @@ export interface Spot {
   label: string;
   name: string;
   content: string;
+  images: string;
   subheader?: string;
 }
 
 export interface Spots {
   context: string;
   spot: Array<Spot>;
+}
+
+export interface LocationState {
+  place: keyof LocationSpots;
 }
 
 export interface LocationSpots {
