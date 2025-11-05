@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
 import type { Spot } from "../../services/types";
 
-export default function SpotCard({ label, name, content, image, subheader }: Spot) {
+export default function SpotCard({
+  label,
+  name,
+  content,
+  image,
+  subheader,
+}: Spot) {
   return (
-    <div className="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
+    <div className="relative flex flex-col bg-clip-border rounded-xl bg-fine text-gray-700 shadow-md">
       <div className="bg-clip-border mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg">
         <img
           src={image}
@@ -26,11 +32,13 @@ export default function SpotCard({ label, name, content, image, subheader }: Spo
         <p className="block antialiased font-poppins font-light leading-relaxed text-inherit mb-6 font-normal !text-gray-400">
           {content}
         </p>
-        <button
-          className="font-bold text-center uppercase hover:!bg-accent/70 hover:!text-white !bg-white text-xs py-3 px-6 rounded-lg border border-accent text-accent hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
-          type="button">
-          view
-        </button>
+        <Link to="/read" state={{ name: name }}>
+          <button
+            className="font-bold text-center uppercase hover:!bg-accent/70 hover:!text-white !bg-white text-xs py-3 px-6 rounded-lg border border-accent text-accent hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
+            type="button">
+            view
+          </button>
+        </Link>
       </div>
     </div>
   );

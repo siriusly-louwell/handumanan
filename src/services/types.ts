@@ -35,5 +35,6 @@ export interface LocationSpots {
 export interface Place {
   title: string;
   name: string;
+  image: string;
   description: string;
 }

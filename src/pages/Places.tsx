@@ -9,6 +9,7 @@ export default function Places() {
           <PlaceCard
             key={i}
             title={place.title}
+            image={place.image}
             name={place.name}
             description={place.description}
           />

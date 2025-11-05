@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import type { Place } from "../../services/types";
 
-export default function PlaceCard({ title, name, description }: Place) {
+export default function PlaceCard({ title, name, image, description }: Place) {
   return (
     <div className="relative flex flex-col bg-clip-border rounded-xl bg-fine text-gray-700 shadow-none item grid gap-2 sm:grid-cols-2">
       <div className="relative bg-clip-border mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg m-0">
         <Link to="/spots" state={{ name: name }}>
           <img
-            src="https://www.material-tailwind.com/image/blog-11.jpeg"
+            src={image}
             alt="Autodesk looks to future of 3D printing with Project"
             className="h-full object-cover cursor-pointer"
           />
