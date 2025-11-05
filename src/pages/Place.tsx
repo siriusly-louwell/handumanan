@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import Carousel from "../components/Carousel";
 
 export default function Place() {
   const { state } = useLocation();
@@ -53,6 +54,27 @@ export default function Place() {
           className="ml-auto h-full w-full rounded-lg object-cover object-center shadow-md lg:min-h-[38rem]"
         />
       </div>
+
+      <Carousel
+        items={[
+          {
+            image: "/BUKIDNON/NASULI SPRING/1.jpg",
+            caption: "",
+          },
+          {
+            image: "/BORACAY/ARIEL_S POINT/2.jpg",
+            caption: "",
+          },
+          {
+            image: "/BORACAY/WHITE BEACH/4.jpg",
+            caption: "",
+          },
+          {
+            image: "/CAMIGUIN/SUNKEN CEMETERY/5.webp",
+            caption: "",
+          },
+        ]}
+      />
     </section>
   );
 }

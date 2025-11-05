@@ -38,3 +38,12 @@ export interface Place {
   image: string;
   description: string;
 }
+
+interface CarouselItem {
+  image: string;
+  caption?: string;
+}
+
+export interface CarouselProps {
+  items: CarouselItem[];
+}
