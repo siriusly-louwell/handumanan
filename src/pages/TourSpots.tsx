@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import type { LocationState } from "../services/types";
 
 export default function TourSpots() {
-  const { state } = useLocation() as {state: LocationState};
+  const { state } = useLocation() as { state: LocationState };
 
   return (
     <section className="py-10 px-40">
@@ -19,8 +19,9 @@ export default function TourSpots() {
       </div>
 
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-16 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-24">
-        {SPOTS[state.place].spot.map((spot) => (
+        {SPOTS[state.place].spot.map((spot, i) => (
           <SpotCard
+            key={i}
             name={spot.name}
             label={spot.label}
             image={spot.image}
