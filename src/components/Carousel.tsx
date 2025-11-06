@@ -20,22 +20,22 @@ export default function Carousel({ items }: CarouselProps) {
         {items.map((item, index) => (
           <div
             key={index}
-            className="min-w-full h-[70vh] relative flex-shrink-0">
+            className="md:min-w-full md:max-w-[100vh] max-w-full h-[70vh] relative flex-shrink-0">
             <img
-              src={item.image}
+              src={item}
               alt=""
               className="absolute inset-0 w-full h-full object-cover blur-md scale-110"
             />
             <img
-              src={item.image}
-              alt={item.caption || `Slide ${index + 1}`}
+              src={item}
+              alt="spot image"
               className="relative w-full h-full object-contain z-10"
             />
-            {item.caption && (
+            {/* {item.caption && (
               <div className="absolute bottom-0 w-full bg-black/50 text-white text-center py-4 text-lg font-medium">
                 {item.caption}
               </div>
-            )}
+            )} */}
           </div>
         ))}
       </div>
@@ -57,8 +57,8 @@ export default function Carousel({ items }: CarouselProps) {
           <div
             key={index}
             onClick={() => setCurrent(index)}
-            className={`w-3 h-3 rounded-full ${
-              current === index ? "bg-white" : "bg-white/50"
+            className={`w-2 h-2 rounded-full ${
+              current === index ? "bg-accent" : "bg-forest/50"
             }`}
           />
         ))}

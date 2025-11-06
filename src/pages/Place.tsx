@@ -1,10 +1,14 @@
 import { useLocation } from "react-router-dom";
 import Carousel from "../components/Carousel";
-import type { SpotState } from "../services/types";
+import type { SpotState, ImageCollection } from "../services/types";
 import { SPOTS } from "../services/data";
+import { SPOT_INFO } from "../services/SpotInfo";
+import { IMAGES } from "../services/images";
 
 export default function Place() {
   const { state } = useLocation() as { state: SpotState };
+  const images = (IMAGES as ImageCollection)[state.place].images[state.name];
+  const spotInfo = SPOT_INFO[state.name];
 
   function getTitle() {
     const place = SPOTS[state.place].spot
@@ -15,27 +19,22 @@ export default function Place() {
   }
 
   return (
-    <section className="lg:py-10 px-20 text-left w-screen">
-      <div className="container p-10 bg-fine grid grid-cols-1 items-center rounded-xl justify-between gap-x-10 lg:grid-cols-2">
+    <section className="lg:py-10 md:px-20 text-left w-screen">
+      <div className="container p-10 bg-fine grid grid-cols-1 gap-y-10 items-center rounded-xl justify-between gap-x-10 lg:grid-cols-2">
         <div className="mb-12">
-          <h1 className="text-accent font-semibold font-poppins mb-5">{getTitle()}</h1>
-          <p className="block antialiased font-sans text-base font-light leading-relaxed text-inherit mb-8 font-normal !text-course">
-            It really matters and then like it really doesn't matter. What
-            matters is the people who are sparked by it. And the people who are
-            like offended by it, it doesn't matter.
+          <h1 className="text-accent font-semibold font-poppins mb-5">
+            {getTitle()}
+          </h1>
+          <p className="block antialiased font-sans text-xl font-semibold leading-relaxed text-inherit mb-8 font-normal !text-course">
+            {spotInfo.description}
           </p>
-          <div className="ml-4 mb-2">
+          {/* <div className="ml-4 mb-8">
             <ul className="flex list-disc flex-col gap-2 pl-4 !font-normal text-course">
               <li>People are so scared to lose their hope</li>
               <li>That's the main thing people</li>
               <li>Thoughts- their perception of themselves!</li>
             </ul>
           </div>
-          <p className="block antialiased font-sans text-base font-light leading-relaxed text-inherit mb-8 font-normal !text-course">
-            It really matters and then like it really doesn't matter. What
-            matters is the people who are sparked by it. And the people who are
-            like offended by it, it doesn't matter.
-          </p>
           <h3 className="block antialiased tracking-normal font-poppins text-3xl font-medium leading-snug text-gray-500 mb-2 !text-2xl lg:!text-3xl">
             We will be with you forever
           </h3>
@@ -43,48 +42,46 @@ export default function Place() {
             It really matters and then like it really doesn't matter. What
             matters is the people who are sparked by it. And the people who are
             like offended by it, it doesn't matter.
-          </p>
+          </p> */}
           <figure className="mb-2 border-l-2 border-gray-400 pl-4">
             <blockquote cite="#">
               <p className="block antialiased font-sans text-xl font-medium leading-relaxed text-inherit mb-2 font-bold italic !text-gray-400">
-                "And thank you for turning my personal jean jacket into a
-                couture piece."
+                "{spotInfo.quote}"
               </p>
             </blockquote>
-            <figcaption>
+            {/* <figcaption>
               <p className="block antialiased font-sans text-sm font-light leading-normal text-inherit ml-2 font-normal !text-gray-600">
                 — Kanye West, Producer
               </p>
-            </figcaption>
+            </figcaption> */}
           </figure>
         </div>
         <img
-          src="https://www.material-tailwind.com/image/blog-11.jpeg"
+          src={images[0]}
           alt="blog"
           className="ml-auto h-full w-full rounded-lg object-cover object-center shadow-md lg:min-h-[38rem]"
         />
+
+        <img
+          className="col-span-1 w-full rounded-lg shadow-md lg:w-11/12"
+          src={images[1]}
+          alt=""
+        />
+        <div className="col-span-1 w-full lg:w-9/12">
+          <h1 className="block antialiased tracking-normal font-poppins text-5xl font-medium leading-snug text-gray-500 mb-2 !text-2xl lg:!text-5xl">
+            {spotInfo.header}
+          </h1>
+          <div className="ml-4 mb-2">
+            <ul className="flex list-disc text-xl flex-col gap-2 pl-4 !font-normal text-course">
+              {spotInfo.bullets.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <Carousel
-        items={[
-          {
-            image: "/BUKIDNON/NASULI SPRING/1.jpg",
-            caption: "",
-          },
-          {
-            image: "/BORACAY/ARIEL_S POINT/2.jpg",
-            caption: "",
-          },
-          {
-            image: "/BORACAY/WHITE BEACH/4.jpg",
-            caption: "",
-          },
-          {
-            image: "/CAMIGUIN/SUNKEN CEMETERY/5.webp",
-            caption: "",
-          },
-        ]}
-      />
+      <Carousel items={images.filter((_, i: number) => i !== 0 && i !== 1)} />
     </section>
   );
 }

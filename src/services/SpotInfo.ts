@@ -1,4 +1,6 @@
-export const SPOT_INFO = {
+import type { InfoDetails } from "./types";
+
+export const SPOT_INFO: InfoDetails = {
     // ? tagaytay
     taal_volcano: {
         description: "",
@@ -197,10 +199,14 @@ export const SPOT_INFO = {
 
     // ? cebu
     magellan_cross: {
-        description: "",
-        bullets: [],
-        header: "",
-        quote: ""
+        description: "Magellan’s Cross, where faith first took root in the Philippines, stands as one of Cebu’s most iconic landmarks. Planted by Portuguese and Spanish explorers upon arriving in Cebu in 1521, it marks the beginning of Christianity in the country. Located near the Basilica del Santo Niño, this spot continues to draw pilgrims and tourists alike who wish to connect with Cebu’s deep religious and cultural heritage.",
+        bullets: [
+            "Learn about the history of Christianity in the Philippines.",
+            "Visit the nearby Basilica del Santo Niño.",
+            "Take photos of this symbol of Cebu’s cultural heritage."
+        ],
+        header: "Why Visit / Activities",
+        quote: "Sample Quote"
     },
     kawasan_falls: {
         description: "",
