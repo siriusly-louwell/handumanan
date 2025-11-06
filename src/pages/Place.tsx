@@ -19,7 +19,7 @@ export default function Place() {
   }
 
   return (
-    <section className="lg:py-10 md:px-20 text-left w-screen">
+    <section className="lg:py-10 md:px-20 text-left container">
       <div className="container p-10 bg-fine grid grid-cols-1 gap-y-10 items-center rounded-xl justify-between gap-x-10 lg:grid-cols-2">
         <div className="mb-12">
           <h1 className="text-accent font-semibold font-poppins mb-5">
@@ -28,33 +28,16 @@ export default function Place() {
           <p className="block antialiased font-sans text-xl font-semibold leading-relaxed text-inherit mb-8 font-normal !text-course">
             {spotInfo.description}
           </p>
-          {/* <div className="ml-4 mb-8">
-            <ul className="flex list-disc flex-col gap-2 pl-4 !font-normal text-course">
-              <li>People are so scared to lose their hope</li>
-              <li>That's the main thing people</li>
-              <li>Thoughts- their perception of themselves!</li>
-            </ul>
-          </div>
-          <h3 className="block antialiased tracking-normal font-poppins text-3xl font-medium leading-snug text-gray-500 mb-2 !text-2xl lg:!text-3xl">
-            We will be with you forever
-          </h3>
-          <p className="block antialiased font-sans text-base font-light leading-relaxed text-inherit mb-6 font-normal !text-course">
-            It really matters and then like it really doesn't matter. What
-            matters is the people who are sparked by it. And the people who are
-            like offended by it, it doesn't matter.
-          </p> */}
-          <figure className="mb-2 border-l-2 border-gray-400 pl-4">
-            <blockquote cite="#">
-              <p className="block antialiased font-sans text-xl font-medium leading-relaxed text-inherit mb-2 font-bold italic !text-gray-400">
-                "{spotInfo.quote}"
-              </p>
-            </blockquote>
-            {/* <figcaption>
-              <p className="block antialiased font-sans text-sm font-light leading-normal text-inherit ml-2 font-normal !text-gray-600">
-                — Kanye West, Producer
-              </p>
-            </figcaption> */}
-          </figure>
+
+          {spotInfo.quote !== "" && (
+            <figure className="mb-2 border-l-2 border-gray-400 pl-4">
+              <blockquote cite="#">
+                <p className="block antialiased font-sans text-xl font-medium leading-relaxed text-inherit mb-2 font-bold italic !text-gray-400">
+                  {spotInfo.quote}
+                </p>
+              </blockquote>
+            </figure>
+          )}
         </div>
         <img
           src={images[0]}

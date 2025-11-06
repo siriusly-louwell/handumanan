@@ -183,3 +183,5 @@ export interface LocationImageData {
 export interface ImageCollection {
   [key: string]: LocationImageData;
 }
+
+export type ValidPathname = Lowercase<keyof LocationSpots>;

@@ -1,14 +1,15 @@
 import { PLACES, SPOTS } from "../services/data";
 import SpotCard from "../components/cards/SpotCard";
 import { useLocation } from "react-router-dom";
-import type { LocationState } from "../services/types";
+import type { ValidPathname } from "../services/types";
 
 export default function TourSpots() {
-  const { state } = useLocation() as { state: LocationState };
+  const { pathname } = useLocation();
+
+  const currentPath = pathname.slice(1).toLowerCase() as ValidPathname;
 
   function getTitle() {
-    const place = PLACES.filter((place) => place.name === state.place);
-
+    const place = PLACES.filter((place) => place.name === currentPath);
     return place[0].title;
   }
 
@@ -19,16 +20,16 @@ export default function TourSpots() {
           {getTitle()}
         </h2>
         <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mx-auto max-w-full !text-course">
-          {SPOTS[state.place].context}
+          {SPOTS[currentPath].context}
         </p>
       </div>
 
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-16 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-24">
-        {SPOTS[state.place].spot.map((spot, i) => (
+        {SPOTS[currentPath].spot.map((spot, i) => (
           <SpotCard
             key={i}
             name={spot.name}
-            place={state.place}
+            place={currentPath}
             label={spot.label}
             image={spot.image}
             content={spot.content}
