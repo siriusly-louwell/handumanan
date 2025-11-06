@@ -28,6 +28,7 @@ export default function TourSpots() {
           <SpotCard
             key={i}
             name={spot.name}
+            place={state.place}
             label={spot.label}
             image={spot.image}
             content={spot.content}

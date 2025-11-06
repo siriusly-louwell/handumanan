@@ -1,6 +1,7 @@
 export interface Spot {
   label: string;
   name: string;
+  place?: string;
   content: string;
   image: string;
   subheader?: string;
@@ -12,6 +13,11 @@ export interface Spots {
 }
 
 export interface LocationState {
+  place: keyof LocationSpots;
+}
+
+export interface SpotState {
+  name: keyof LocationSpots;
   place: keyof LocationSpots;
 }
 

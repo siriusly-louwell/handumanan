@@ -1,14 +1,24 @@
 import { useLocation } from "react-router-dom";
 import Carousel from "../components/Carousel";
+import type { SpotState } from "../services/types";
+import { SPOTS } from "../services/data";
 
 export default function Place() {
-  const { state } = useLocation();
+  const { state } = useLocation() as { state: SpotState };
+
+  function getTitle() {
+    const place = SPOTS[state.place].spot
+      .filter((place) => place.name === state.name)
+      .map((val) => val.label);
+
+    return place.length > 0 ? place[0] : "";
+  }
 
   return (
     <section className="lg:py-10 px-20 text-left w-screen">
       <div className="container p-10 bg-fine grid grid-cols-1 items-center rounded-xl justify-between gap-x-10 lg:grid-cols-2">
         <div className="mb-12">
-          <h1 className="text-accent">{state.name}</h1>
+          <h1 className="text-accent font-semibold font-poppins mb-5">{getTitle()}</h1>
           <p className="block antialiased font-sans text-base font-light leading-relaxed text-inherit mb-8 font-normal !text-course">
             It really matters and then like it really doesn't matter. What
             matters is the people who are sparked by it. And the people who are
