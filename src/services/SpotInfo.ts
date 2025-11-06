@@ -772,10 +772,10 @@ export const SPOT_INFO: InfoDetails = {
     willys_rock: {
         description: "Willy's Rock is an iconic volcanic rock formation located just off-White Beach in Station 1. It features a statue of the Virgin Mary and offers panoramic views of the shoreline.",
         bullets: [
-            "•	Visiting the grotto and the statue of the Virgin Mary.",
-            "•	Climbing the rock for views ",
-            "Taking photos",
-            "Taking photoes"
+            "Visiting the grotto and the statue of the Virgin Mary.",
+            "Climbing the rock for views.",
+            "Taking photos.",
+            "Swimming in the surrounding waters."
         ],
         header: "Key Activities",
         quote: ""
@@ -783,79 +783,128 @@ export const SPOT_INFO: InfoDetails = {
 
     // ? camiguin
     white_island: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "This is a pristine sandbar off the coast of Camiguin, often described as the island’s crown jewel. The sandbar emerges from crystal-clear waters and offers lovely views of the volcanoes of Camiguin. It is simple yet stunning natural wonder — sand, sea, volcano view — easy to show off.",
+        bullets: [
+            "Relax and lounge on the white sand.",
+            "Swim or snorkel in the clear surrounding water.",
+            "Capture photos with the volcano backdrop (Mount Hibok Hibok) and enjoy the scenic island moment."
+        ],
+        header: "What to Do",
         quote: ""
     },
     katibawasan_falls: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "A majestic waterfall in Camiguin that drops from a high height into a clear basin, surrounded by lush tropical vegetation. It offers a refreshing nature escape — waterfall + pool + forest — ideal for nature-lovers and photo ops.",
+        bullets: [
+            "Walk the trail down to the falls through tropical forest.",
+            "Swim or dip in the natural basin at the bottom of the falls.",
+            "Picnic or relax in the bamboo huts/rest area nearby."
+        ],
+        header: "What to Do",
         quote: ""
     },
     sunken_cemetery: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "A hauntingly beautiful historical-natural site where an entire cemetery was submerged by volcanic eruption in the 1870s; marked today by a large white cross rising from the sea. It’s unique — combining history, nature and a little mystery.",
+        bullets: [
+            "Ride a boat from shore to see the cross up close",
+            "Snorkel (or just view) the submerged tombstones under water — a unique underwater memorial",
+            "Photo opportunity with the sea + historical marker + volcanic backdrop"
+        ],
+        header: "What to Do",
         quote: ""
     },
     mantigue_island: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "A small island (about 4 hectares) off Camiguin’s coast, protected as a marine sanctuary with white coral sand beach, forest trail and rich underwater life. Fantastic combination of beach + reef + nature all in one spot — great for showing off.",
+        bullets: [
+            "Take a short boat ride to the island from Camiguin",
+            "Snorkel or dive around its vibrant coral reefs, sea turtles and marine life",
+            "Walk the forest trail, relax on the pristine beach"
+        ],
+        header: "What to Do",
         quote: ""
     },
     bura_water_park: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "These spots highlight Camiguin’s volcanic and geothermal nature. Bura is a “soda-water” pool (naturally carbonated spring). It offers a different vibe from beach/waterfall — soothing spa-like nature experience.",
+        bullets: [
+            "Swim/soak in the naturally heated mineral springs or the cold fresh springs",
+            "Relax in the tranquil jungle-surrounded pools",
+            "For Bura: taste the spring water/fizzy effect (if you dare!)"
+        ],
+        header: "What to Do",
         quote: ""
     },
     tanguines_lagoon: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "Located in Mahinog, Camiguin, just near Benoni port.  A large calm lagoon originally created for fish propagation. A change of pace from typical beach/sea settings — quieter, more relaxed.",
+        bullets: [
+            "Eat at the floating restaurant or over-water huts built on the lagoon",
+            "Paddle or kayak (some reports mention stand‐up paddleboard) on the still waters",
+            "Take photos of the unique setting: lagoon + sea + mountains",
+            "A change of pace from typical beach/sea settings — quieter, more relaxed",
+            "Good for families or groups wanting something low‐key"
+        ],
+        header: "What to Do",
         quote: ""
     },
 
     // ? panabo
     seawall: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "Along Panabo’s coast you’ll find a seawall promenade and bay walk area where locals stroll, relax and enjoy seaside views. Combines city lifestyle + nature: an urban coastal space in a growing city.",
+        bullets: [
+            "Take a walk or jog by the sea during late afternoon or sunset.",
+            "Enjoy street food or snacks from food-stalls set up in the evening.",
+            "Relax on benches, take in sea breeze, bring a camera for coastal views."
+        ],
+        header: "What to Do",
         quote: ""
     },
     japanese_tunnel: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "Historical and nature spots in Panabo: the Japanese Tunnel (WWII-era) being developed for tourism. Mix of history--less typical for urbanized agricultural city.",
+        bullets: [
+            "Visit the Japanese Tunnel for a glimpse of wartime heritage."
+        ],
+        header: "What to Do",
         quote: ""
     },
     mangrove_forest: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "A large‐scale mangrove forest reserve (~94.1 ha) with a 585-meter walkway/boardwalk in Brgy. JP Laurel. Often city visitors seek beaches—this offers a coastal forest ecosystem in the city boundary.",
+        bullets: [
+            "Walk the boardwalk immersed in mangrove trees, observe flora/fauna.",
+            "Take photos of the forest + water meets land scene.",
+            "Possibly birdwatch or relax in shaded paths."
+        ],
+        header: "What to Do",
         quote: ""
     },
 
     // ? tagum
     botanical_park: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "A large botanical park in Tagum, boasting thousands of tree species from around the world. A lush green break within the city, offering nature-relief and visual beauty.",
+        bullets: [
+            "Take a walk through the shaded paths",
+            "Use the viewing deck for panoramas",
+            "Have a picnic under big trees and you can bring kids"
+        ],
+        header: "What to Do",
         quote: ""
     },
     banana_beach: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "A unique beach resort in Tagum’s Madaum area, within a banana plantation – offering beach + resort + nature in one. A beach getaway that’s still near city access, tied with agricultural ambiance – unusual combination.",
+        bullets: [
+            "Swim and beach relax",
+            "Experience kayaking or water activities",
+            "Explore plantation surroundings",
+            "Stay overnight if you want resort comfort"
+        ],
+        header: "What to Do",
         quote: ""
     },
     nabintad_cruise: {
-        description: "",
-        bullets: [],
-        header: "",
+        description: "Tagum City offers a river cruise (around mangroves and along the river bank) which is a less obvious but rewarding activity. Gives a nature and water dimension to Tagum-city visits — not just parks and urban spots.",
+        bullets: [
+            "Board a small boat or cruise along the river",
+            "Enjoy natural scenery of mangroves",
+            "Observe local river-life, perhaps stop at a floating market or boardwalk"
+        ],
+        header: "What to Do",
         quote: ""
     },
 }
