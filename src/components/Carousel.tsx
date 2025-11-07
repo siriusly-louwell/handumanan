@@ -20,7 +20,7 @@ export default function Carousel({ items }: CarouselProps) {
         {items.map((item, index) => (
           <div
             key={index}
-            className="md:min-w-full md:max-w-[100vh] max-w-full h-[70vh] relative flex-shrink-0">
+            className="md:min-w-full md:max-w-[100vh] max-w-full h-[50vh] md:h-[70vh] relative flex-shrink-0">
             <img
               src={item}
               alt=""

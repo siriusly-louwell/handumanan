@@ -164,6 +164,7 @@ export interface Place {
   title: string;
   name: string;
   image: string;
+  video: string;
   description: string;
 }
 
@@ -182,6 +183,11 @@ export interface LocationImageData {
 
 export interface ImageCollection {
   [key: string]: LocationImageData;
+}
+
+export interface VideoEmbedProps {
+  src: string;
+  title?: string;
 }
 
 export type ValidPathname = Lowercase<keyof LocationSpots>;
