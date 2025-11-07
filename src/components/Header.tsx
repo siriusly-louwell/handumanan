@@ -6,7 +6,7 @@ export default function Header() {
       <div className="bg-fine shadow">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4">
-            <h2 className="hidden sm:block font-semibold text-xl font-poppins text-accent">
+            <h2 className="font-semibold text-md md:text-xl font-poppins text-accent">
               Handumanan
             </h2>
 
