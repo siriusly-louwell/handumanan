@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 export default function HomePage() {
   return (
     <>
-      <div className="relative min-h-screen w-screen bg-[url('./VIGAN/CALLE_CRISOLOGO/3.jpg')] bg-bottom bg-cover bg-no-repeat">
+      <div className="relative min-h-screen w-screen bg-[url('/VIGAN/CALLE_CRISOLOGO/3.jpg')] bg-bottom bg-cover bg-no-repeat">
         <div className="absolute inset-0 h-full w-full bg-black/50"></div>
         <div className="grid min-h-screen px-8">
           <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
