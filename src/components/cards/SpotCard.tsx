@@ -14,7 +14,7 @@ export default function SpotCard({
       <div className="bg-clip-border mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 shadow-lg">
         <img
           src={image}
-          alt="Lovely and cozy apartment"
+          alt={label}
           className="h-full w-full object-cover"
         />
       </div>

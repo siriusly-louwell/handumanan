@@ -3,6 +3,7 @@ import SpotCard from "../components/cards/SpotCard";
 import { useLocation } from "react-router-dom";
 import type { ValidPathname, Place } from "../services/types";
 import VideoEmbed from "../components/VideoEmbed";
+import { useEffect } from "react";
 
 export default function TourSpots() {
   const { pathname } = useLocation();
@@ -21,6 +22,10 @@ export default function TourSpots() {
   }
 
   const main = getPlace();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <section className="py-10 px-4 lg:px-40">

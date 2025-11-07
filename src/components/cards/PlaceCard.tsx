@@ -8,7 +8,7 @@ export default function PlaceCard({ title, name, image, description }: Place) {
         <Link to={`/${name}`} state={{ name: name }}>
           <img
             src={image}
-            alt="Autodesk looks to future of 3D printing with Project"
+            alt={title}
             className="h-full object-cover cursor-pointer"
           />
         </Link>

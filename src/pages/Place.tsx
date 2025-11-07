@@ -4,6 +4,7 @@ import type { SpotState, ImageCollection } from "../services/types";
 import { SPOTS } from "../services/data";
 import { SPOT_INFO } from "../services/SpotInfo";
 import { IMAGES } from "../services/images";
+import { useEffect } from "react";
 
 export default function Place() {
   const { state } = useLocation() as { state: SpotState };
@@ -17,6 +18,10 @@ export default function Place() {
 
     return place.length > 0 ? place[0] : "";
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <section className="lg:py-10 md:px-20 text-left container">

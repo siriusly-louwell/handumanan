@@ -374,7 +374,14 @@ export const IMAGES = {
                 '/CEBU/Simala Shrine/6.jpg',
             ],
             temple_leah: [
-                '',
+                '/CEBU/Temple of Leah/1.jpg',
+                '/CEBU/Temple of Leah/2.jpg',
+                '/CEBU/Temple of Leah/3.jpg',
+                '/CEBU/Temple of Leah/4.webp',
+                '/CEBU/Temple of Leah/5.webp',
+                '/CEBU/Temple of Leah/6.jpg',
+                '/CEBU/Temple of Leah/7.jpg',
+                '/CEBU/Temple of Leah/8.webp',
             ],
             sirao_garden: [
                 '/CEBU/Sirao Flower Garden/1.jpg',
