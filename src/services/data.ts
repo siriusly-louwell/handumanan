@@ -760,6 +760,14 @@ export const SPOTS: LocationSpots = {
       },
     ]
   },
+  bangkok: {
+    context: "Bangkok pulses with life, color, and culture — a city where golden temples rise beside bustling night markets and serene riverside communities. Beyond its lively streets, Bangkok celebrates Thai artistry through handwoven textiles, floating markets, and time-honored crafts. Visitors are invited to explore responsibly, connecting with the people and traditions that give this vibrant city its soul.",
+    spot: []
+  },
+  china: {
+    context: "China is a land where ancient traditions meet modern marvels. From the timeless majesty of the Great Wall to the tranquil gardens of Suzhou and the vibrant markets of Xi’an, every corner tells a story of heritage and harmony. Travelers can discover handcrafted art, regional cuisine, and centuries-old craftsmanship that continue to inspire the world.",
+    spot: []
+  },
 };
 
 export const PLACES: Place[] = [
@@ -768,6 +776,7 @@ export const PLACES: Place[] = [
     name: "tagaytay",
     image: IMAGES['tagaytay'].images.taal_volcano[0],
     video: "",
+    vidDescription: "",
     description: "Tagaytay is a popular holiday town south of Manila on the Philippine island Luzon. Known for its mild climate, it sits on a ridge above Taal Volcano Island, an active volcano surrounded by Taal Lake. Picnic Grove is a recreation area with trails and a zip line.",
   },
   {
@@ -775,6 +784,7 @@ export const PLACES: Place[] = [
     name: "vigan",
     image: IMAGES['vigan'].images.calle_crisologo[0],
     video: "https://drive.google.com/file/d/1gOV7AVFMnaOjxGB-3XqbVLzGLal5pD7u/preview",
+    vidDescription: "Vigan is a timeless city where the past gently walks beside the present. Its cobblestone streets, old Spanish houses, and horse-drawn kalesas bring to life the stories of centuries that have passed. Here, every balcony, every lantern, every echoed footstep carries memory and meaning. Vigan is a place you don’t just see — you feel.",
     description: "Vigan is a city in the Philippines, on the west coast of Luzon island. It's known for its preserved Spanish colonial and Asian architecture. Calle Crisologo dominates the Mestizo district, with its cobblestone streets, malecón, horse-drawn carriages and rustic mansions.",
   },
   {
@@ -782,6 +792,7 @@ export const PLACES: Place[] = [
     name: "aklan",
     image: IMAGES['aklan'].images.boracay[0],
     video: "",
+    vidDescription: "",
     description: "The province of Aklan lies northwest on Panay Island and includes renowned tourist spots like Boracay and various nature/ecotourism sites. The culture, history, and natural environments are diverse — from beaches to waterfalls to mangrove forests and cold springs.",
   },
   {
@@ -789,6 +800,7 @@ export const PLACES: Place[] = [
     name: "ilocos_norte",
     image: IMAGES['ilocos_norte'].images.paoay_church[0],
     video: "",
+    vidDescription: "",
     description: "Ilocos Norte is a province in the northern Philippines. In the capital Laoag City, grand Paoay Church is a fusion of local and baroque architecture. Farther north, Cape Bojeador Lighthouse and the dramatic Kapurpurwan Rock Formation offer panoramic ocean views.",
   },
   {
@@ -796,6 +808,7 @@ export const PLACES: Place[] = [
     name: "ilocos_sur",
     image: IMAGES['ilocos_sur'].images.sta_maria_church[0],
     video: "",
+    vidDescription: "",
     description: "Ilocos Sur, officially the Province of Ilocos Sur, is a province in the Philippines located in the Ilocos Region in Luzon. Located on the mouth of the Mestizo River is the capital of Vigan, while Candon is the most-populous city.",
   },
   {
@@ -803,6 +816,7 @@ export const PLACES: Place[] = [
     name: "la_union",
     image: IMAGES['la_union'].images.bahay_bato[0],
     video: "",
+    vidDescription: "",
     description: "La Union, officially the Province of La Union, is a coastal province in the Philippines situated in the Ilocos Region on the island of Luzon. The province's capital, the City of San Fernando, is the most populous city in La Union and serves as the regional center of the Ilocos Region.",
   },
   {
@@ -810,6 +824,7 @@ export const PLACES: Place[] = [
     name: "cebu",
     image: IMAGES['cebu'].images.magellan_cross[0],
     video: "https://drive.google.com/file/d/18miy1qqJ-T92dDd7bFG0ca-SBdwlv3Ex/preview",
+    vidDescription: "Cebu is a lively island where history, culture, and adventure come together. From peaceful beaches and crystal-blue waters to sacred churches and bustling city streets, Cebu offers moments that stay with you. It is a place of warm smiles, flavorful food, and stories proudly carried through generations. In Cebu, every corner has a memory waiting to be cherished.",
     description: "Cebu is a province of the Philippines, in the country’s Central Visayas region, comprising Cebu Island and more than 150 smaller surrounding islands and islets. Its prosperous port capital, Cebu City, retains landmarks from its 16th-century Spanish colonial past, including the Basilica Minore del Santo Niño church and triangular Fort San Pedro.",
   },
   {
@@ -817,6 +832,7 @@ export const PLACES: Place[] = [
     name: "palawan",
     image: IMAGES['palawan'].images.puerto_princesa[0],
     video: "",
+    vidDescription: "",
     description: "Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens bed design but the back is too high for the beams and angle of the ceiling I also wanted to point out.",
   },
   {
@@ -824,6 +840,7 @@ export const PLACES: Place[] = [
     name: "davao",
     image: IMAGES['davao'].images.eden_park[0],
     video: "",
+    vidDescription: "",
     description: "Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens bed design but the back is too high for the beams and angle of the ceiling I also wanted to point out.",
   },
   {
@@ -831,6 +848,7 @@ export const PLACES: Place[] = [
     name: "boracay",
     image: IMAGES['boracay'].images.ariel_point[0],
     video: "",
+    vidDescription: "",
     description: "Boracay is a small island in the central Philippines. It's known for its resorts and beaches. Along the west coast, White Beach is backed by palm trees, bars and restaurants. On the east coast, strong winds make Bulabog Beach a hub for water sports.",
   },
   {
@@ -838,6 +856,7 @@ export const PLACES: Place[] = [
     name: "bukidnon",
     image: IMAGES['bukidnon'].images.alalumm_falls[0],
     video: "https://drive.google.com/file/d/13oglOehIQ7tFBl3PEGryzZa_WdQElFY3/preview",
+    vidDescription: "Dahilayan is a peaceful mountain adventure park in Bukidnon, surrounded by cool pine-scented air and endless green landscapes. It’s a place where laughter echoes from zip lines and giant swings, and where friends and families come together to enjoy the beauty of nature. Whether it’s the thrill of flying through the mountains or simply sitting under the trees, Dahilayan is a destination that stays in your heart long after you leave.",
     description: "Bukidnon, officially the Province of Bukidnon, is a landlocked province in the Philippines located in the Northern Mindanao region. Its capital is the city of Malaybalay while Valencia is the largest city.",
   },
   {
@@ -845,6 +864,7 @@ export const PLACES: Place[] = [
     name: "camiguin",
     image: IMAGES['camiguin'].images.white_island[0],
     video: "",
+    vidDescription: "",
     description: "Camiguin is a relatively small island province, nicknamed the “Island Born of Fire” due to its volcanic history. It offers a mix of beach, sandbar, island-hopping, waterfall hikes, volcano treks, springs and historical/underwater sites. Many of the attractions are close enough together that you could cover several in one day if you plan well.",
   },
   {
@@ -852,6 +872,7 @@ export const PLACES: Place[] = [
     name: "panabo",
     image: IMAGES['panabo'].images.seawall[0],
     video: "",
+    vidDescription: "",
     description: "Panabo City is known as the “Banana Capital of the Philippines” because of its huge banana plantations, export production and agro-industry. It spans fertile lowlands, coastal areas and has a mix of agriculture + city amenities.",
   },
   {
@@ -859,6 +880,23 @@ export const PLACES: Place[] = [
     name: "tagum",
     image: IMAGES['tagum'].images.nabintad_cruise[0],
     video: "",
+    vidDescription: "",
     description: "The capital of Davao del Norte province in the Philippines, known for being the 'Palm City of the Philippines' and a vibrant economic and cultural hub. It is also recognized for its bustling commercial districts, vibrant cultural scene, and warm community spirit.",
+  },
+  {
+    title: "BANGKOK",
+    name: "bangkok",
+    image: IMAGES['bangkok'].images.bangkok[0],
+    video: "https://drive.google.com/file/d/1JGZsebnI1PksPj021-edV96vTTSYPu8m/preview",
+    vidDescription: "Bangkok is a city of stunning contrasts — where golden temples shine beside lively markets, and ancient traditions blend with modern life. The air is filled with the aroma of spices, the sound of busy streets, and the warmth of smiles from people you meet along the way. Every corner holds something vibrant, colorful, and alive. In Bangkok, every moment feels like a story unfolding.",
+    description: "Bangkok, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district, home to opulent Grand Palace and its sacred Wat Phra Kaew Temple. Nearby is Wat Pho Temple with an enormous reclining Buddha.",
+  },
+  {
+    title: "CHINA",
+    name: "china",
+    image: IMAGES['china'].images.china[0],
+    video: "https://drive.google.com/file/d/1zgLDuLkFl_9VnuKYaQeaqKwOU0DrXm_-/preview",
+    vidDescription: "Lijiang Old Town is a place where time seems to slow down. Stone pathways, flowing canals, wooden houses, and lantern-lit streets create a scene that feels like a dream preserved for centuries. The melodies of traditional music blend with the soft sound of water running through the canals, making every step feel peaceful and meaningful. Here, the past is alive — gently guiding every moment.",
+    description: "China's diverse geography includes vast mountains, deserts, and fertile lowlands, with most of the population concentrated in the east near rivers like the Yangtze and Yellow River. Culturally, China is characterized by its rich history, the influence of philosophies like Confucianism, and a wide array of ethnic groups and traditions, although it is often perceived as homogeneous.",
   },
 ];

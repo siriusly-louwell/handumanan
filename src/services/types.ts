@@ -35,6 +35,8 @@ export interface LocationSpots {
   camiguin: Spots;
   boracay: Spots;
   bukidnon: Spots;
+  bangkok: Spots;
+  china: Spots;
 }
 
 interface SpotInfo {
@@ -165,6 +167,7 @@ export interface Place {
   name: string;
   image: string;
   video: string;
+  vidDescription: string;
   description: string;
 }
 

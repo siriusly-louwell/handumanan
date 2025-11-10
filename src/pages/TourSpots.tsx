@@ -18,6 +18,7 @@ export default function TourSpots() {
       image: found.image,
       description: found.description,
       video: found.video || "",
+      vidDescription: found.vidDescription,
     };
   }
 
@@ -33,7 +34,7 @@ export default function TourSpots() {
         <h2 className="block antialiased tracking-normal font-poppins text-4xl font-semibold leading-[1.3] text-accent mb-2 !text-3xl lg:!text-4xl">
           {main.title}
         </h2>
-        <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mx-auto max-w-full !text-course">
+        <p className="block antialiased font-sans text-lg font-normal leading-relaxed text-inherit mx-auto max-w-full !text-course">
           {SPOTS[currentPath].context}
         </p>
       </div>
@@ -41,6 +42,9 @@ export default function TourSpots() {
       {main.video !== "" && (
         <div className="pb-8">
           <VideoEmbed src={main.video} />
+          <p className="block antialiased font-sans text-lg font-normal leading-relaxed text-inherit mt-5 mx-auto max-w-full !text-course">
+            {main.vidDescription}
+          </p>
         </div>
       )}
 

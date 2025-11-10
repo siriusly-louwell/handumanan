@@ -6,9 +6,12 @@ export default function Header() {
       <div className="bg-fine shadow">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4">
-            <h2 className="font-semibold text-md md:text-xl font-poppins text-accent">
-              Handumanan
-            </h2>
+            <div className="flex gap-x-2 items-center">
+              <img src="/metadata.png" alt="handumanan" className="w-8" />
+              <h2 className="font-semibold text-md md:text-xl font-poppins text-accent">
+                Handumanan
+              </h2>
+            </div>
 
             <div className="sm:flex sm:items-center space-x-5 pr-10">
               <NavLink

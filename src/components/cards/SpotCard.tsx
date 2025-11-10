@@ -35,7 +35,7 @@ export default function SpotCard({
         </p>
         <Link to="/read" state={{ name: name, place: place }}>
           <button
-            className="font-bold text-center uppercase hover:!bg-accent/70 hover:!text-white !bg-white text-xs py-3 px-6 rounded-lg border border-accent text-accent hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
+            className="font-bold text-center uppercase hover:!bg-accent/70 hover:!text-white !bg-fine text-xs py-3 px-6 rounded-lg border border-accent text-accent hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
             type="button">
             view
           </button>

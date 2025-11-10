@@ -901,4 +901,14 @@ export const IMAGES = {
             ],
         },
     },
+    bangkok: {
+        images: {
+            bangkok: ['/BANGKOK/1.webp']
+        }
+    },
+    china: {
+        images: {
+            china: ['/CHINA/1.jpg']
+        }
+    }
 }
