@@ -167,7 +167,7 @@ export interface Place {
   name: string;
   image: string;
   video: string;
-  vidDescription: string;
+  vidDescription?: string;
   description: string;
 }
 

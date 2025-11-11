@@ -902,11 +902,13 @@ export const IMAGES = {
         },
     },
     bangkok: {
+        main: '',
         images: {
             bangkok: ['/BANGKOK/1.webp']
         }
     },
     china: {
+        main: '',
         images: {
             china: ['/CHINA/1.jpg']
         }
