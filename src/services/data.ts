@@ -892,7 +892,7 @@ export const PLACES: Place[] = [
     description: "Bangkok, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district, home to opulent Grand Palace and its sacred Wat Phra Kaew Temple. Nearby is Wat Pho Temple with an enormous reclining Buddha.",
   },
   {
-    title: "CHINA",
+    title: "LIJANG OLD TOWN",
     name: "china",
     image: IMAGES['china'].images.china[0],
     video: "https://drive.google.com/file/d/1zgLDuLkFl_9VnuKYaQeaqKwOU0DrXm_-/preview",
